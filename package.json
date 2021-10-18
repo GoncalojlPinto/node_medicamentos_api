@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prod": "node index.js",
     "dev": "nodemon index.js"
   },
   "repository": {
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/GoncalojlPinto/node_mediamentos_api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
